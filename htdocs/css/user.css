@@ -1,0 +1,38 @@
+#user-info {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+}
+#user-info-table tr td:first-child {
+  text-align: left;
+  font-weight: bold;
+}
+#user-info-table tr td:last-child {
+  text-align: right;
+}
+#user-info-table {
+  display: inline-block;
+}
+.user-img {
+  display: inline-block;
+}
+
+#user-submits {
+  display: flex;
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+}
+#user-posts {
+  flex: 0.75;
+}
+#user-comments {
+  flex: 0.25;
+}
+#user-comments > .comment {
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+}
+.user-submits-header {
+  font-weight: bold;
+}

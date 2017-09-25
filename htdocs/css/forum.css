@@ -1,0 +1,123 @@
+/* CATEGORY PANE FORMATTING */
+@media all and (max-width: 800px) {
+  #left {
+    max-height: 300px; /* Fixed size of left pane, force scrolled overflow */
+  }
+}
+#category-list,
+#category-list ul {
+  list-style-type: none;
+}
+#category-list-header {
+  text-align: center;
+}
+#category-list li ul li:last-child a {
+  border-radius: 0 0 4px 4px;
+}
+#category-list li ul {
+   /* Hide subcategories by default. Visibility is handled by /js/hide-show-subcat.js*/
+  display: none;
+}
+#left .button {
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+#left .button-sub {
+  width: 95%;
+}
+.category-search {
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+/* POST LIST FORMATTING */
+.post {
+  display: flex;
+  box-sizing: border-box;
+  padding: 25px;
+  border-bottom: 2px solid #ccc;
+  max-height: 225px;
+  overflow: hidden;
+  position: relative;
+}
+.post:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  background: linear-gradient(transparent 150px, #ccc);
+  pointer-events: none;
+}
+.post-content {
+  flex: 1; /* Cover all of uncovered space */
+  text-align: left;
+}
+.post-header {
+  font-weight: bolder;
+}
+.post-date {
+  float: right;
+  font-weight: bold;
+}
+.post-preview {}
+.post-data {
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+.post-data td {
+  padding: 2px;
+}
+.post-data tr td:last-child {
+  text-align: right;
+}
+.post-score {}
+.post-creator {}
+.post-views {}
+.post-comments {}
+.post-vote {
+  flex: 0;
+  border-right: 1px solid rgba(0,0,0,0.3);
+}
+.post-thumbnail {
+  background-color: #000;
+  width: 256px;
+  height: 128px;
+  float: right;
+  text-align: center;
+}
+
+@media all and (max-width: 800px) {
+  .post-thumbnail {
+    width: 96px;
+    height: 64px;
+  }
+}
+
+/* USER PANE FORMATTING */
+.login-form,
+.register-form {
+  margin: 0 0 50px 0;
+}
+.login-form > input,
+.register-form > input {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+.user-img {
+  width: 128px;
+  height: 128px;
+}
+.user-name {
+  font-weight: bolder;
+}
+.user-score {
+  font-weight: bold;
+}
+#right .button {
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
