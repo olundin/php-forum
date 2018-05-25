@@ -13,7 +13,7 @@ If you would like to use it yourself, use the file in the folder "database" to s
 
 ## Screenshots
 
-!(front)[https://i.imgur.com/ibm7NEf.png]
-!(post)[https://i.imgur.com/E6ptLDM.png]
-!(profile)[https://i.imgur.com/TjiaH8y.png]
+![front](https://i.imgur.com/ibm7NEf.png)
+![post](https://i.imgur.com/E6ptLDM.png)
+![profile](https://i.imgur.com/TjiaH8y.png)
 
