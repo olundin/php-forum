@@ -10,5 +10,3 @@ Features:
 * Categories: Each post is posted to a category. Posts can the be sorted by category.
 * Comments: Posts can be commented on.
 * Users: The forum can be viewed without signing in, but to create content an account is required. Users can see their posts and comments and edit/delete these.
-
-## Screenshots
